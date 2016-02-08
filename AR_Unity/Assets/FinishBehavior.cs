@@ -8,7 +8,7 @@ public class FinishBehavior : MonoBehaviour
     {
         if (_collider.gameObject.tag == "Player")
         {
-            Debug.Log("Yay");
+            _collider.transform.position = GameObject.Find("Starting position").transform.position;
         }
     }
 }
