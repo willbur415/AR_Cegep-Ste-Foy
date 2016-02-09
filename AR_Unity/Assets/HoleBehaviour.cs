@@ -7,7 +7,7 @@ public class HoleBehaviour : MonoBehaviour {
     {
         if (_collider.gameObject.tag == "Player")
         {
-            _collider.transform.position = GameObject.Find("Starting position").transform.position;
+            _collider.transform.position = GameObject.Find("Starting Position").transform.position;
         }
     }
 }
