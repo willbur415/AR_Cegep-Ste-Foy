@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class HoleBehaviour : MonoBehaviour {
-
+public class HoleBehaviour : MonoBehaviour
+{
     void OnTriggerEnter(Collider _collider)
     {
         if (_collider.gameObject.tag == "Player")
