@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FinishBehavior : MonoBehaviour
-{
+public class HoleBehaviour : MonoBehaviour {
 
     void OnTriggerEnter(Collider _collider)
     {
